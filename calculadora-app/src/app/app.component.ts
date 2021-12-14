@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   titulo = 'Aplicación Calculadora';
 
-  resultado: number = 0;
+  resultadoPadre: number;
 
   procesarResultado(resultado: number) {
-    this.resultado = resultado;
+    this.resultadoPadre = resultado;
   }
 }
